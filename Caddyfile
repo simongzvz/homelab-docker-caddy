@@ -1,0 +1,11 @@
+status.simongzvz.duckdns.org {
+    reverse_proxy uptime-kuma:3001
+}
+
+portainer.simongzvz.duckdns.org {
+    reverse_proxy portainer:9000
+}
+
+memos.simongzvz.duckdns.org {
+    reverse_proxy memos:5230
+}
